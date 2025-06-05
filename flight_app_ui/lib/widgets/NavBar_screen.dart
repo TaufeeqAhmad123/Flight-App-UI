@@ -1,3 +1,4 @@
+import 'package:flight_app_ui/card/card_view.dart';
 import 'package:flight_app_ui/views/explore/explore.dart';
 import 'package:flight_app_ui/views/home/home.dart';
 import 'package:flutter/material.dart';
@@ -20,7 +21,7 @@ class _NavbarScreenState extends State<NavbarScreen> {
   final List<Widget> _screen = <Widget>[
     HomeView(),
     ExploreView(),
-    Text('Profile Screen'),
+    CardView(),
     Text('Settings Screen'),
   ];
   @override
