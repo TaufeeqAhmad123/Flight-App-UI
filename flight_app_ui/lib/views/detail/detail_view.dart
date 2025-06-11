@@ -228,7 +228,7 @@ class DetailView extends StatelessWidget {
                                   ),
                                 ),
                                 onPressed: () {
-                                  navigateTo(BootNowView(), context);
+                                  navigateTo(BootNowView(model: model,), context);
                                 },
                                 child: Text(
                                   'Book Now',

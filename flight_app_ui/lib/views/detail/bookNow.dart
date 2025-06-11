@@ -1,10 +1,12 @@
+import 'package:flight_app_ui/model/model.dart';
 import 'package:flight_app_ui/utils/const.dart';
 import 'package:flight_app_ui/views/payNow/payNow.dart';
 import 'package:flight_app_ui/widgets/navigaion.dart';
 import 'package:flutter/material.dart';
 
 class BootNowView extends StatefulWidget {
-  const BootNowView({super.key});
+   final Model model;
+  const BootNowView({super.key,required this.model});
 
   @override
   State<BootNowView> createState() => _BootNowViewState();
@@ -43,7 +45,7 @@ class _BootNowViewState extends State<BootNowView> {
           // Book Now button
           ElevatedButton(
             onPressed: () {
-              navigateTo(PayNowView(), context);
+              navigateTo(PayNowView(model: widget.model,), context);
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: KPrimaryColor,
