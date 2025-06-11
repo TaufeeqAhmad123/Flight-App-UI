@@ -49,7 +49,7 @@ class LoginScreen extends StatelessWidget {
                   textWidget(text: 'Enter your password'),
                   SizedBox(height: 10),
                   textField(
-                    text: 'Confirm your password',
+                    text: 'Enter your password',
                     icon: 'assets/icon/padlock.png',
                   ),
 

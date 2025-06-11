@@ -51,7 +51,7 @@ class SignupScreen extends StatelessWidget {
                   SizedBox(height: 15),
                   textWidget(text:'Enter your password'),
                   SizedBox(height: 10),
-                  textField(text :'Confirm your password',icon: 'assets/icon/padlock.png',),
+                  textField(text :'Enter your password',icon: 'assets/icon/padlock.png',),
                   SizedBox(height: 15),
                   textWidget(text:'Confirm your password'),
                   SizedBox(height: 10),

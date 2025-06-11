@@ -1,5 +1,5 @@
 import 'package:flight_app_ui/views/splash/splash.dart';
-import 'package:flight_app_ui/widgets/NavBar_screen.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const NavbarScreen(),
+      home: const Splashscreen(),
     );
   }
 }
