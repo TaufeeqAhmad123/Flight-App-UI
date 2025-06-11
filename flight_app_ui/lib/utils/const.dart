@@ -19,7 +19,7 @@ final TextStyle KsmallextStyle = GoogleFonts.albertSans(
   fontSize: 15,
   fontWeight: FontWeight.w500,
 );
-
+final Color KPrimaryColor =  Color.fromARGB(255, 54, 1, 146);
 List topDestinations = [
   Model(
     name: 'Desny Island',

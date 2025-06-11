@@ -11,18 +11,19 @@ class topWidget extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text('Welcome', style: KLargeTextStyle),
-       
-        Row(
-          children: [
-            Text('Taufeeq Ahmad', style: KLargeTextStyle),
-            Spacer(),
-            CircleAvatar(
-              radius: 20,
-              backgroundImage: AssetImage('assets/images/profile.jpg'),
-            ),
-          ],
+
+        ListTile(
+          contentPadding: EdgeInsets.all(0),
+          title: Text('Taufeeq Ahmad', style: KLargeTextStyle),
+          subtitle: Text('Where to fly today?', style: KsmallextStyle),
+          trailing: CircleAvatar(
+            radius: 20,
+            backgroundImage: AssetImage(
+              'assets/image/profile.jpeg'
+              
+            ),  
+          ),
         ),
-        Text('Where to fly today?', style: KsmallextStyle),
       ],
     );
   }

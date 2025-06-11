@@ -37,6 +37,7 @@ dependencies:
   google_fonts: ^6.2.1
   animate_do: ^4.2.0
   iconsax: ^0.0.8
+  path_drawing: ^1.0.1
 
 dev_dependencies:
   flutter_test:
